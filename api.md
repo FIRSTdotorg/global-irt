@@ -14,7 +14,7 @@ Existing repositories:
 
 Each repository will be treated in this document as the **application** responsible for the API. There are some rules that are requirements for these applications: these rules will be informed that the application **MUST** comply. The optional alternatives will be written like what the application **SHOULD** do, but by not doing doesn't mean that the application is not conformant to this documentation.  
 
-The URLs listed in this document are prefixed by the HTTP method required to use them, followed by the address relative to the Endpoint URL of each repository. Take for example the teams listing, which uses the address `GET /teams`. It must be read as a `GET` request to the `[Endpoint URL]/teams` — to query FIRST.Org repository, you could use `curl -i -X GET https://api.first.org/global-irt/v1/teams`.
+The URLs listed in this document are prefixed by the HTTP method required to use them, followed by the address relative to the Endpoint URL of each repository. Take for example the teams listing, which uses the address `GET /teams`. It must be read as a `GET` request to the `[Endpoint URL]/teams` — to query FIRST.Org repository, you could use `curl -X GET https://api.first.org/global-irt/v1/teams`.
 
 The default output format is `application/json`. The applications are encouraged to support additional formats but it's not a requirement. The accepted format should be requested either as a `Accept: ` header or as an extension to the requested URL. These are suggestions for additional formats to be supported:
 
@@ -30,7 +30,7 @@ The applications must use UTF8 as the request/response encoding. Applications ar
 
 ## Global parameters
 
-Parameters can be set at the query string of the request. Parameters must be keypair values assigned with an "=" (equal sign): key=value. The values must be URL encoded (RFC 3986), and multiple parameters must be separated by "&" (ampersand sign).
+Parameters can be set at the query string of the request. Parameters must be keypair values assigned with an `=` (equal sign): `key=value`. The values must be URL encoded (RFC 3986), and multiple parameters must be separated by `&` (ampersand sign).
 
 There are some parameters that are reserved for pagination and output control. These parameters are eligible for several methods and should not be used for a application-specific purpose.
 
@@ -40,8 +40,8 @@ There are some parameters that are reserved for pagination and output control. T
 | **limit**      | integer   | Limits the maximun number of records to be shown. Should be a number between 1 and 100.                                                                                                                                                             |
 | **offset**     | integer   | Offsets the list of records by this number. The first item is 0.                                                                                                                                                                                    |
 | **sort**       | string    | Comma-separated list of fieldnames to be used to sort the resultset. Fields starting with "-" (minus sign) indicate a descending order. Each application should define its default sorting options.                                                 |
-| **envelope**   | boolean   | Use "true", "false", "0" or "1". If set to true will add an object wrapping the resultset, with details on the status, total records found, offset and limit. When `false` this information is returned at the response header. Defaults to `true`. |
-| **pretty**     | boolean   | Use "true", "false", "0" or "1". If the result should be pretty-printed or no. Defaults to `true`.                                                                                                                                                  |
+| **envelope**   | boolean   | Use `true`, `false`, `0` or `1`. If set to true will add an object wrapping the resultset, with details on the status, total records found, offset and limit. When `false` this information is returned at the response header. Defaults to `true`. |
+| **pretty**     | boolean   | Use `true`, `false`, `0` or `1`. If the result should be pretty-printed or no. Defaults to `true`.                                                                                                                                                  |
 | **callback**   | string    | Only for JSONP resultsets, adds the `callback`  as a function call. Only alphanumerical characters are allowed.                                                                                                                                     |
 
 ## Response object
@@ -152,13 +152,7 @@ All output fields, with the exception of last-modified, can be used as params fo
 **Example response object** 
 
 ```json
-curl -i "https://api.first.org/global-irt/v1/teams?q=circl"
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-Content-Length: 1281
-Last-Modified: Wed, 03 Jun 2015 14:05:27 +0000
-X-Version: 1.0
-X-Total-Count: 1
+curl -X GET "https://api.first.org/global-irt/v1/teams?q=circl"
 
 [
     {
@@ -189,5 +183,5 @@ X-Total-Count: 1
 ]
 ```
 
-Last modified: June 3rd, 2015
+Last modified: June 15th, 2015
 version: 1.0-beta
