@@ -6,3 +6,4 @@ sector,Sector CISRT (for example Energy sector or other critical infrastructures
 government,Government CSIRT
 enterprise,Internal CSIRT to an enterprise dealing with the IT security internally
 as a service,CSIRT as a service
+PIRT,Privacy Incident Response Team
