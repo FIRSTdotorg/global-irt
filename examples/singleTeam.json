@@ -41,7 +41,7 @@
         "constituency": "Government, Private and Public sectors",
         "constituency-code": "008",
         "constituency-description": "CIRCL is the CERT for the private sector, communes and non-governmental entities for the Grand Duchy of Luxembourg.",
-        "source-name": "FIRST.Org",
+
         "-first-member-type": "Full Member",
         "last-modified": "2015-06-03T14:05:27+00:00"
         "cert-type" : [
@@ -55,8 +55,34 @@
           "ger",
           "lb"
         ],
-        "preferred language" : "eng"
+        "preferred language" : "eng",
         "team-members":[
+          {
+            "name": "Alexandre Dulaunoy",
+            "email": "alexandre.dulaunoy@circl.lu",
+            "is-first-rep": true,
+            "enckeys":[
+              "0x3B12DCC282FA29312F5B709A09E2CD4944E6CBCD"
+            ],
+            "languages" : [
+              "eng",
+              "fre",
+              "ger",
+              "lb"
+            ]
+          },{
+            "name": "Raphaël Vinot",
+            "is-first-rep": false,
+            "is_second_rep": true,
+            "enckeys":[
+              "0x8647F5A7FFD350AE38B6E22F32E4E1C133B3792F"
+            ]
+          }
+        ],
+        "meta" : [
+          "source-name": "FIRST.Org",
+          "schema_version": 2,
+          "schema-url": "https://github.com/FIRSTdotorg/global-irt/tree/v2/"
 
         ]
     }
