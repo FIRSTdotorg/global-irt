@@ -7,11 +7,13 @@ The global-irt project aims at finding a common format/naming scheme between dif
 At the time of this writing, there are a couple of CERT/CSIRT directories:
 
   * https://api.first.org  at FIRST.org
-  * the [national CSIRT database] at cert.org
+  * the [national CSIRT database](https://www.cert.org/incident-management/national-csirts/national-csirts.cfm) at cert.org
+  * the [Trusted Introducer](http://trusted-introducer.org) database
+  * etc.
+(see also [RIPE-658](https://www.ripe.net/publications/docs/ripe-658) for a list of known abuse contact (and CSIRT/CERT) lookup mechanisms).
 
 Each one of these directories has a different format, different field names and different (but sometimes overlapping) data.
 
-See also [RIPE-658](https://www.ripe.net/publications/docs/ripe-658) for a list of known abuse contact (and CSIRT/CERT) lookup mechanisms.
 
 
 The Global IRT project aims at defining a format which encompasses the existing formats. Also it shall provide a client 
