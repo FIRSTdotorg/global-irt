@@ -19,6 +19,12 @@ Having emphasised the consensus, please follow these guidelines for contributing
   6. old versions will be archived and marked as old.
 
 
+Maintainer HOWTO:
+  1. new pull request comes in and gets approved
+  2. maintaners pull it in, update:
+    - examples/
+    - latest.json
+    - tag the new commit with a new version number
 
 
 

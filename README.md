@@ -29,3 +29,15 @@ with a list of known CSIRT/CERT types (national, PSIRT, etc.) a sender can choos
 # How to contribute?
 
 Please read [CONTRIBUTING.md](https://github.com/FIRSTdotorg/global-irt/blob/master/CONTRIBUTING.md)
+
+# What's here?
+
+examples/   ..... find some examples here
+
+Wiki --> click on the wiki link above. 
+
+cert-types/latest.json .....  the latest machine readable version of the IRT type definition
+
+api.md ......initial description of using the global-irt format for use in an API.
+
+
