@@ -1,6 +1,6 @@
 # Global IRT REST API v1
 
-[Global IRT (Incident Response Team)](https://github.com/adulau/global-irt) is a project to describe common IRT and abuse contact information. Global IRT participant directories are encouraged to provide a RESTful API that can provide basic querying capabilities to the repository, and return information following [Global IRT specification](https://github.com/adulau/global-irt/wiki/ExistingFormatReview).
+[Global IRT (Incident Response Team)](https://github.com/FIRSTdotorg/global-irt) is a project to describe common IRT and abuse contact information. Global IRT participant directories are encouraged to provide a RESTful API that can provide basic querying capabilities to the repository, and return information following [Global IRT specification](https://github.com/adulau/global-irt/wiki/ExistingFormatReview).
 
 Each directory is encouraged to be conformant to this specification and register the compatible API endpoint with the the Global IRT initiative for sourcename reservation and public listing of the API for the CERT community.
 
