@@ -1,6 +1,7 @@
 [
     {
         "short-team-name": "CIRCL",
+        "parent-organisation" : "",
         "official-team-name": "CIRCL - Computer Incident Response Center Luxembourg",
         "postal-address": "CIRCL - Computer Incident Response Center Luxembourg\r\nc/o smile - \"security made in Letzebuerg\" GIE\r\n41, avenue de la gare\r\nL-1611 Luxembourg\"",
         "country-code": [
@@ -44,13 +45,19 @@
         "-first-member-type": "Full Member",
         "last-modified": "2015-06-03T14:05:27+00:00"
         "cert-type" : [
-          "national",
-          "government"
+          "publicly-funded",
+          "sector",
+          "national-responsibilities"
         ],
         "languages" : [
           "eng",
-          "fre"
+          "fre",
+          "ger",
+          "lb"
         ],
         "preferred language" : "eng"
+        "team-members":[
+
+        ]
     }
 ]
