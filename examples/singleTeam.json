@@ -43,7 +43,7 @@
         "constituency-description": "CIRCL is the CERT for the private sector, communes and non-governmental entities for the Grand Duchy of Luxembourg.",
 
         "-first-member-type": "Full Member",
-        "last-modified": "2015-06-03T14:05:27+00:00"
+        "last-modified": "2015-06-03T14:05:27+00:00",
         "cert-type" : [
           "publicly-funded",
           "sector",
@@ -79,11 +79,10 @@
             ]
           }
         ],
-        "meta" : [
+        "meta" : {
           "source-name": "FIRST.Org",
           "schema_version": 2,
           "schema-url": "https://github.com/FIRSTdotorg/global-irt/tree/v2/"
-
-        ]
+        }
     }
 ]
