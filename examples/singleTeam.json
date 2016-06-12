@@ -1,0 +1,27 @@
+[
+    {
+        "short-team-name": "CIRCL",
+        "official-team-name": "CIRCL - Computer Incident Response Center Luxembourg",
+        "postal-address": "CIRCL - Computer Incident Response Center Luxembourg\r\nc/o smile - \"security made in Letzebuerg\" GIE\r\n41, avenue de la gare\r\nL-1611 Luxembourg\"",
+        "country-code": "LU",
+        "website": [
+            "https://www.circl.lu/"
+        ],
+        "email": "info@circl.lu",
+        "host": "security made in Lëtzebuerg\" (SMILE) g.i.e.",
+        "establishment": "2008-01-05",
+        "phone-numbers": [
+            "+352-247-88-444"
+        ],
+        "enckeys": [
+            "0xCA572205C0024E06BA70BE89EAADCFFC22BD4CD5"
+        ],
+        "operating-hours": "During legal workdays (Monday to Friday) from 9:00 to 12:00 and 14:00 to 17:00 Central European Time (GMT+0100, GMT+0200 from April to October according to daylight saving periode)",
+        "constituency": "Government, Private and Public sectors",
+        "constituency-code": "008",
+        "constituency-description": "CIRCL is the CERT for the private sector, communes and non-governmental entities for the Grand Duchy of Luxembourg.",
+        "source-name": "FIRST.Org",
+        "-first-member-type": "Full Member",
+        "last-modified": "2015-06-03T14:05:27+00:00"
+    }
+]
