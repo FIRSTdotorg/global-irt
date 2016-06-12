@@ -26,4 +26,4 @@ with a list of known CSIRT/CERT types (national, PSIRT, etc.) a sender can choos
 
 # How to contribute?
 
-Please read [CONTRIBUTING.md]
+Please read [CONTRIBUTING.md](https://github.com/FIRSTdotorg/global-irt/blob/master/CONTRIBUTING.md)
