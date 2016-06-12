@@ -1,6 +1,6 @@
 # Global IRT REST API v1
 
-[Global IRT (Incident Response Team)](https://github.com/adulau/global-irt) is a project to describe common IRT and abuse contact information. Global IRT participant directories are encouraged to provide a RESTful API that can provide basic querying capabilities to the repository, and return information following [Global IRT specification](https://github.com/adulau/global-irt/wiki/ExistingFormatReview).
+[Global IRT (Incident Response Team)](https://github.com/FIRSTdotorg/global-irt) is a project to describe common IRT and abuse contact information. Global IRT participant directories are encouraged to provide a RESTful API that can provide basic querying capabilities to the repository, and return information following [Global IRT specification](https://github.com/adulau/global-irt/wiki/ExistingFormatReview).
 
 Each directory is encouraged to be conformant to this specification and register the compatible API endpoint with the the Global IRT initiative for sourcename reservation and public listing of the API for the CERT community.
 
@@ -170,7 +170,7 @@ curl -X GET "https://api.first.org/global-irt/v1/teams?q=circl"
             "+352-247-88-444"
         ],
         "enckeys": [
-            "0x22BD4CD5"
+            "0xCA572205C0024E06BA70BE89EAADCFFC22BD4CD5"
         ],
         "operating-hours": "During legal workdays (Monday to Friday) from 9:00 to 12:00 and 14:00 to 17:00 Central European Time (GMT+0100, GMT+0200 from April to October according to daylight saving periode)",
         "constituency": "Government, Private and Public sectors",
@@ -183,5 +183,5 @@ curl -X GET "https://api.first.org/global-irt/v1/teams?q=circl"
 ]
 ```
 
-Last modified: June 15th, 2015
-version: 1.0-beta
+Last modified: June 12th, 2016
+version: 1.0.1-beta

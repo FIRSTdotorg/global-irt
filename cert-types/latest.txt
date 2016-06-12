@@ -2,7 +2,9 @@
 NREN,academic CSIRT, national research and education network ("NREN")
 PSIRT,Product CSIRT
 national,CSIRT with national responsibility
-sector,Sector CISRT (for example Energy sector or other critical infrastructures
+sector,Sector CSIRT (for example Energy sector or other critical infrastructures
 government,Government CSIRT
 enterprise,Internal CSIRT to an enterprise dealing with the IT security internally
 as a service,CSIRT as a service
+PIRT,Privacy Incident Response Team
+publicly funded,CSIRT where primarily funding is public
