@@ -1,0 +1,44 @@
+{
+  "cert-types": [
+    {
+      "description": "academic CSIRT, national research and education network NREN",
+      "identifier": "NREN"
+    },
+    {
+      "description": "Product CSIRT",
+      "identifier": "PSIRT"
+    },
+    {
+      "description": "CSIRT with a core national responsibility",
+      "identifier": "national"
+    },
+    {
+      "description": "CSIRT with one or more national responsibilities mandated",
+      "identifier": "national-responsibility"
+    },
+    {
+      "description": "Sector CSIRT (for example Energy sector or other critical infrastructures)",
+      "identifier": "sector"
+    },
+    {
+      "description": "Government CSIRT",
+      "identifier": "government"
+    },
+    {
+      "description": "Internal CSIRT to an enterprise dealing with the IT security internally",
+      "identifier": "enterprise"
+    },
+    {
+      "description": "Privacy Incident Response Team",
+      "identifier": "PIRT"
+    },
+    {
+      "description": "CSIRT where primarily funding is public",
+      "identifier": "publicly-funded"
+    },
+    {
+      "description": "Commercial CSIRT services",
+      "identifier": "commercial"
+    }
+  ]
+}
